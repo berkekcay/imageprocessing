@@ -7,8 +7,8 @@ def main():
     st.markdown("""
     <style>
     :root {
-        --primary-color: #FFD700; /* Sarı */
-        --secondary-color: #C0C0C0; /* Gümüş Gri */
+        --primary-color: #C0C0C0; /* Gümüş Gri */
+        --secondary-color: #FFD700; /* Sarı */
         --backup-color: #000000; /* Siyah */
     }
     
