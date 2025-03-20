@@ -7,11 +7,11 @@ def main():
     st.markdown("""
     <style>
     :root {
-        --primary-color: #1DA1F2; /* Mavi */
-        --secondary-color: #FFFFFF; /* Beyaz */
-        --accent-color: #FF4500; /* Turuncu */
-        --background-color: #F5F8FA; /* Açık Gri */
-        --text-color: #14171A; /* Koyu Gri */
+        --primary-color: #FF9800; /* Mavi */
+        --secondary-color: #2C2F33; /* Beyaz */
+        --accent-color: #FFC107; /* Turuncu */
+        --background-color: #23272A; /* Açık Gri */
+        --text-color: #EAEAEA; /* Koyu Gri */
     }
     
     .stApp {
