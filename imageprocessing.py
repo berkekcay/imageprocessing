@@ -7,19 +7,21 @@ def main():
     st.markdown("""
     <style>
     :root {
-        --primary-color: #C0C0C0; /* Gümüş Gri */
-        --secondary-color: #FFD700; /* Sarı */
-        --backup-color: #000000; /* Siyah */
+        --primary-color: #1DA1F2; /* Mavi */
+        --secondary-color: #FFFFFF; /* Beyaz */
+        --accent-color: #FF4500; /* Turuncu */
+        --background-color: #F5F8FA; /* Açık Gri */
+        --text-color: #14171A; /* Koyu Gri */
     }
     
     .stApp {
-        background-color: var(--secondary-color);
-        color: var(--backup-color);
+        background-color: var(--background-color);
+        color: var(--text-color);
     }
     
     .stButton>button {
         background-color: var(--primary-color);
-        color: var(--backup-color);
+        color: var(--secondary-color);
         font-weight: bold;
         border-radius: 8px;
     }
@@ -31,7 +33,7 @@ def main():
     }
     
     .stMetric {
-        background-color: var(--primary-color);
+        background-color: var(--accent-color);
         padding: 5px;
         border-radius: 8px;
         font-weight: bold;
