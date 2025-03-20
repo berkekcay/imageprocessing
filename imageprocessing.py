@@ -9,7 +9,7 @@ def main():
     :root {
         --primary-color: #FF9800; /* Mavi */
         --secondary-color: #2C2F33; /* Beyaz */
-        --accent-color: #FFC107; /* Turuncu */
+        --accent-color: #FF9800; /* Turuncu */
         --background-color: #23272A; /* Açık Gri */
         --text-color: #EAEAEA; /* Koyu Gri */
     }
